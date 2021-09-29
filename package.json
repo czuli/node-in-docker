@@ -1,12 +1,11 @@
 {
-  "name": "demo-node",
+  "name": "helloworld",
   "version": "1.0.0",
   "author": "Buddy Works",
-  "description": "Buddy Works demo project",
   "engines": {
     "node": ">=0.10"
   },
-  "main": "./lib/demonode",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Testing...\" && sleep 10 && exit 0"
   },
