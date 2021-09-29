@@ -1,5 +1,5 @@
 {
-  "name": "helloworld",
+  "name": "demo-node",
   "version": "1.0.0",
   "author": "Buddy Works",
   "description": "Buddy Works demo project",
@@ -9,14 +9,13 @@
   "main": "./lib/demonode",
   "scripts": {
     "lint": "jshint lib test",
-    "test": "mocha",
+    "test": "mocha --reporter spec --timeout 4000",
     "prepare": "npm test && npm run lint"
   },
   "license": "Apache-2.0",
   "devDependencies": {
     "chai": "4.2.0",
     "jshint": "2.9.6",
-    "express": "^4.15.2",
     "mocha": "5.0.0"
   }
 }
