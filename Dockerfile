@@ -1,10 +1,7 @@
 FROM node:12
-WORKDIR /application
-
+WORKDIR /app
 COPY package.json /app
 RUN npm install
-
-COPY . /application
+COPY . /app
 CMD node index.js
-
 EXPOSE 8081

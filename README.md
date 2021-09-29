@@ -1,4 +1,8 @@
-# Node.js Demo Project
+# Node.js "Hello World" app
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/buddy-works/node-demo.svg)](https://greenkeeper.io/)
-This is a demo project that you can import to [Buddy CI](https://buddy.works).
+This repository contains a simple "Hello World" app created with [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/). 
+
+Use this app with the [**How to Dockerize a Node.js application**](https://buddy.works/guides/how-dockerize-node-application) guide to learn how to Dockerize, deploy and run Node.js apps. 
+
+
+Having trouble? Contact [**Buddy**](https://buddy.works/) technical support for help: <support@buddy.works>
