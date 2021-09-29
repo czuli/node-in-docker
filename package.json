@@ -9,7 +9,7 @@
   "main": "./lib/demonode",
   "scripts": {
     "lint": "jshint lib test",
-    "test": "mocha --reporter spec --timeout 4000",
+    "test": "mocha",
     "prepare": "npm test && npm run lint"
   },
   "license": "Apache-2.0",
