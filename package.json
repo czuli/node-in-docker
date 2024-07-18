@@ -1,10 +1,10 @@
 {
-  "name": "helloworld",
+  "name": "hello-world",
   "version": "1.0.0",
   "description": "A simple Node.js application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Testing...\" && sleep 10 && exit 0"
+    "test": "echo \"Testing...\" && sleep 15 && exit 0"
   },
   "author": "Your Name",
   "license": "ISC",
