@@ -1,17 +1,21 @@
 FROM node:18
+
+# Ustawienie zmiennej środowiskowej PORT
+ENV PORT=20100
+
 WORKDIR /app
 
-# Copy package.json and package-lock.json (if available)
+# Kopiowanie plików package.json i package-lock.json (jeśli dostępne)
 COPY package*.json ./
 
-# Install dependencies
+# Instalacja zależności
 RUN npm install
 
-# Copy the rest of the application code
+# Kopiowanie reszty kodu aplikacji
 COPY . .
 
-# Specify the command to run the application
-CMD ["node", "index.js"]
-
-# Expose the application port
+# Wystawienie portu aplikacji
 EXPOSE 20100
+
+# Określenie komendy do uruchomienia aplikacji
+CMD ["node", "index.js"]
