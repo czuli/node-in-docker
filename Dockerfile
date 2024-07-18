@@ -14,4 +14,4 @@ COPY . .
 CMD ["node", "index.js"]
 
 # Expose the application port
-EXPOSE 8081
+EXPOSE 20100
